@@ -4,19 +4,19 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
 
 :root {
-    --background-color: #fafafa;
+    --background-color: #000000;
     --primary-color: #3b82f6;
     --accent-color: #a9a9a9;
 }
 
 body {
-    background-color: var(--background-color);
+    background: url(./assets/back.jpg);
     line-height: 1.5;
     letter-spacing: 0.8px;
 }
 
 .heading {
-    background-color: var(--primary-color);
+    background:url(./assets/top.jpg);
     color: var(--background-color);
     padding: 8px 1.5rem;
 }
@@ -29,6 +29,7 @@ body {
 .logo {
     display: block;
     color: var(--background-color);
+    font-family: cursive;
 }
 
 .list-non-bullet {
@@ -39,6 +40,8 @@ body {
 .list {
     display: inline-block;
     padding: 0 10px;
+    font-size:large;
+    font-family: cursive;
 }
 
 .link {
@@ -46,17 +49,21 @@ body {
 }
 
 .container {
+    background: url(./assets/main.jpg );
     width: 35vw;
     padding-top: 2rem;
+    margin-top: 2rem;
     margin-left: 50vw;
     transform: translateX(-50%);
+    overflow: hidden;
+    border-radius: 2%;
 }
 
 .text-area {
     width: 100%;
+    color: white;
     padding: 4px 8px 0 8px;
     resize: none;
-    background-color: transparent;
     border: 1px solid var(--accent-color);
 }
 
@@ -155,3 +162,4 @@ body {
 .pin {
     color: red;
 }
+

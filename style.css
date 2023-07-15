@@ -4,19 +4,19 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
 
 :root {
-    --background-color: #fafafa;
+    --background-color: #000000;
     --primary-color: #3b82f6;
     --accent-color: #a9a9a9;
 }
 
 body {
-    background-color: var(--background-color);
+    background: url(./assets/back.jpg);
     line-height: 1.5;
     letter-spacing: 0.8px;
 }
 
 .heading {
-    background-color: var(--primary-color);
+    background:url(./assets/top.jpg);
     color: var(--background-color);
     padding: 8px 1.5rem;
 }
